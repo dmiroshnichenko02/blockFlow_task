@@ -1,0 +1,39 @@
+.sidebar {
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.sidebar__nav {
+    padding-top: 32px;
+    height: 100%;
+    list-style-type: none;
+    position: relative;
+}
+
+.sidebar__nav__item {
+    padding: 8px 12px;
+    width: 224px;
+    margin: 18px 0;
+    margin-left: 34px;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: var(--title);
+}
+
+.sidebar__nav__item > img {
+    margin-right: 10px;
+}
+
+.sidebar__nav__item:last-child {
+    position: absolute;
+    content: "";
+    bottom: 32px;
+}

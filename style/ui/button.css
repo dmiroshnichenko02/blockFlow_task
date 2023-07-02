@@ -1,0 +1,18 @@
+.btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: var(--active);
+    display: flex;
+    width: 88px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}

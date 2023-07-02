@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style/global.css" />
+        <title>BlockFlow test task</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="header__title">Start</h1>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <ul class="sidebar__nav">
+                <li class="sidebar__nav__item">
+                    <img src="./assets/icons/home.png" alt="home" />
+                    Головна
+                </li>
+                <li class="sidebar__nav__item active-bar">
+                    <img src="./assets/icons/progress.png" alt="progress" />
+                    Сторінка1
+                </li>
+                <li class="sidebar__nav__item">
+                    <img src="./assets/icons/layers.png" alt="layers" />
+                    Сторінка2
+                </li>
+                <li class="sidebar__nav__item">
+                    <img src="./assets/icons/done.png" alt="done" />
+                    Сторінка3
+                </li>
+                <li class="sidebar__nav__item">
+                    <img src="./assets/icons/settings.png" alt="settings" />
+                    Налаштування
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="container">
+                <ul class="main__status">
+                    <li class="main__status__item">
+                        <div
+                            class="main__status__item__circle active-circle dashed-active"
+                        ></div>
+                        <span class="main__status__item__text active-text"
+                            >Стан1</span
+                        >
+                    </li>
+                    <li class="main__status__item">
+                        <div
+                            class="main__status__item__circle active-circle dashed-active"
+                        ></div>
+                        <span class="main__status__item__text active-text"
+                            >Стан2</span
+                        >
+                    </li>
+                    <li class="main__status__item">
+                        <div
+                            class="main__status__item__circle dashed-next"
+                        ></div>
+                        <span class="main__status__item__text">Стан3</span>
+                    </li>
+                    <li class="main__status__item">
+                        <div class="main__status__item__circle"></div>
+                        <span class="main__status__item__text">Стан4</span>
+                    </li>
+                    <li class="main__status__item">
+                        <div class="main__status__item__circle"></div>
+                        <span class="main__status__item__text">Стан5</span>
+                    </li>
+                </ul>
+                <div class="main__control">
+                    <div class="main__control__info">
+                        <h2 class="main__control__info__title">Information</h2>
+                        <div class="main__control__info__wrapper">
+                            <div class="main__control__info__number">
+                                <h3>Info Number:</h3>
+                                <span>903049</span>
+                            </div>
+                            <div class="main__control__info__place">
+                                <h3>Pick up Place:</h3>
+                                <span>Sweden</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__control__status">
+                        <div class="main__control__status__text">
+                            <h2>We are here</h2>
+                            <span>Long time to go</span>
+                        </div>
+                        <img src="./assets/img/truck.png" alt="truck" />
+                    </div>
+                    <form action="" class="main__control__form">
+                        <h2 class="main__control__form__title">
+                            Перезамовте Багаж
+                        </h2>
+                        <label for="first">Дропдаун</label>
+                        <select name="first" id="first">
+                            <option value="First bag" selected>
+                                Select option
+                            </option>
+                            <option value="First bag">Fist bag</option>
+                            <option value="First bag">Fist bag</option>
+                        </select>
+                        <label for="second">Дропдаун</label>
+                        <select name="second" id="second">
+                            <option value="First bag" selected>
+                                Select option
+                            </option>
+                            <option value="First bag">Fist bag</option>
+                            <option value="First bag">Fist bag</option>
+                        </select>
+                        <button class="btn">Done</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

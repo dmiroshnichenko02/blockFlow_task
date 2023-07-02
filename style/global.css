@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+@import url(./header/header.css);
+@import url(./sidebar/sidebar.css);
+@import url(./main/main.css);
+@import url(./ui/button.css);
+@import url("./ui/active.css");
+
+:root {
+    --active: #1fc0ae;
+    --bg: #f6f7fa;
+    --lightText: #8e99ab;
+    --active-bar: rgba(31, 192, 174, 0.19);
+    --selectBg: #f9fafb;
+    --title: #1b1b1b;
+    --dashedNext: rgba(234, 236, 240, 1);
+    --selectBorder: #eaecf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg);
+}
+
+.header,
+.main {
+    max-width: calc(100% - 280px);
+    margin-left: auto;
+}
+
+.container {
+    width: 1036px;
+    margin: 0 auto;
+}

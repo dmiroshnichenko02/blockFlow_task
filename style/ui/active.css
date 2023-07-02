@@ -1,0 +1,31 @@
+.active-circle {
+    background: var(--active);
+}
+
+.active-text {
+    color: var(--title);
+}
+
+.dashed-active::after,
+.dashed-next::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: -155px;
+    height: 2px;
+    width: 140px;
+    border: 2px dashed var(--active);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.dashed-next::after {
+    border-color: var(--dashedNext);
+}
+
+.active-bar {
+    border-radius: 6px;
+    background-color: var(--active-bar);
+}
